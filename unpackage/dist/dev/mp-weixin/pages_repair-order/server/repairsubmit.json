@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "luyj-choose-img": "/uni_modules/luyj-choose-img/components/luyj-choose-img/luyj-choose-img",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

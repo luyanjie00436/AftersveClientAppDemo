@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "登录",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "is-login": "/components/is-login/is-login",
+    "mobile-input": "/components/mobile-input/mobile-input",
+    "password-input": "/components/password-input/password-input",
+    "sms-code": "/components/smsCode/smsCode",
+    "bind-phone-box": "/components/bind-phone-box/bind-phone-box"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "品牌详情",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "operate-permission": "/components/operate-permission/operate-permission",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

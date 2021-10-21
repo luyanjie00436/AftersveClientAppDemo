@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "成员申请审核",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

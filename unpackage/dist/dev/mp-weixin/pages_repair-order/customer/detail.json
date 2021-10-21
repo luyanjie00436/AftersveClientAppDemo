@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "报障工单",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "order-steps": "/components/order-steps/order-steps",
+    "luyj-steps": "/uni_modules/luyj-steps/components/luyj-steps/luyj-steps"
+  }
+}

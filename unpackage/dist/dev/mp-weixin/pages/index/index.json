@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "易通服务",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge"
+  }
+}

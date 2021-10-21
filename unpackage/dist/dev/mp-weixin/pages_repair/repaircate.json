@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "报修-分类",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "luyj-data-picker": "/uni_modules/luyj-data-picker/components/luyj-data-picker/luyj-data-picker",
+    "branch-select": "/components/branch-select/branch-select",
+    "myfiles": "/components/myfiles/myfiles",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

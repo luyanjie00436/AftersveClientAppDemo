@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "部门-编辑",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "is-login": "/components/is-login/is-login",
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "staffs-selects-box": "/components/staffs-selects-box/staffs-selects-box",
+    "luyj-data-picker": "/uni_modules/luyj-data-picker/components/luyj-data-picker/luyj-data-picker",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

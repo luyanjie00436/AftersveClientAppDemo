@@ -1,0 +1,103 @@
+/* 主页内容高度 */
+.main-content-height{
+	height: calc(100vh - 100upx) ;
+}
+/* 淡粉色背景 */
+.bg_light_pink{
+	background-color:#f9d7ea !important;
+}
+
+/* 天青色渐变背景(横向由浅到深) */
+.bg-gradual-cyan {
+	background-image: linear-gradient(45deg, #1CBBB4 ,#00B4CC);
+	color: #ffffff;
+}
+
+/* 固定横纵 */
+.width_20vw{
+	width: 20vw;
+}
+
+.width_25vw{
+	width: 25vw;
+}
+.width_30vw{
+	width: 30vw;
+}
+.width_50vw{
+	width: 50vw;
+}
+.width_70vw{
+	width: 70vw;
+}
+.width_75vw{
+	width: 75vw;
+}
+
+.height_60vh{
+	height: 60vh;
+}
+
+.height_cal310{
+	height: calc(100vh - 310upx) ;
+}
+.height_cal430{
+	height: calc(100vh - 430upx) ;
+}
+
+
+/* 放大倍数 */
+.scale_05{
+	transform: scale(0.5);
+}
+.scale_1_5{
+	transform: scale(1.5);
+}
+.scale_2{
+	transform: scale(2.0);
+}
+.scale_3{
+	transform: scale(3.0);
+}
+/* 设置flex值 */
+.flex_1{
+	flex:1
+}
+
+/* 对其方向:左对齐 */
+.direction_l{
+	direction: ltr;
+}
+
+.title_30upx {
+	text-align: justify;
+	padding-right: 30upx;
+	font-size: 30upx;
+	position: relative;
+	height: 60upx;
+	line-height: 60upx;
+}
+
+/* input */
+.form_input{
+	font-size: 30upx;
+	color: #555;
+	padding-right: 20upx;
+}
+
+// 作为list-item按钮的容器
+.item-footer-tags {
+	min-height: 200rpx;
+	display: -webkit-flex; /* Safari */
+	display : flex;
+	// flex-direction: row-reverse;	// 横向布局
+	flex-direction: column;
+	align-items: center;		// 垂直居中
+	justify-content: center;
+	// 子按钮
+	.box {
+		margin: 10rpx;
+		text-align: center;
+	}
+	
+}

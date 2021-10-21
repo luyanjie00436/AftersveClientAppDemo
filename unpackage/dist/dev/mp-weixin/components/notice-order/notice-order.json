@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+  },
+  "component": true
+}

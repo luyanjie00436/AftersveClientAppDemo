@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "组织机构",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "operate-permission": "/components/operate-permission/operate-permission",
+    "luyj-tree-navigation": "/uni_modules/luyj-tree/components/luyj-tree-navigation/luyj-tree-navigation",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "organ-invte": "/components/organ-invte/organ-invte",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

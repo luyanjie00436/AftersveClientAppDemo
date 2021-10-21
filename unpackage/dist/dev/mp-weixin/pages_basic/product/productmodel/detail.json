@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "型号详情",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

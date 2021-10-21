@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "组织",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "luyj-data-picker": "/uni_modules/luyj-data-picker/components/luyj-data-picker/luyj-data-picker",
+    "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox"
+  }
+}

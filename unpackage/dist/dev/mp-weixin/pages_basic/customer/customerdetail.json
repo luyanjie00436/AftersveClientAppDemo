@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "operate-permission": "/components/operate-permission/operate-permission",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

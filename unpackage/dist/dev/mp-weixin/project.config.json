@@ -1,0 +1,44 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxe41256ffb86e9b9c",
+  "projectname": "AftersveClientApp",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 1,
+      "list": [
+        {
+          "name": "创建或加入组织",
+          "query": "",
+          "id": 0,
+          "pathName": "pages_basic/orgation/orgation_createOrJoin"
+        },
+        {
+          "name": "系统提示",
+          "query": "msgType=2",
+          "id": 1,
+          "pathName": "pages/notice/noticedetail"
+        }
+      ]
+    }
+  }
+}

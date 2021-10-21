@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "品牌列表",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "luyj-search-bar": "/uni_modules/luyj-search-bar/components/luyj-search-bar/luyj-search-bar",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

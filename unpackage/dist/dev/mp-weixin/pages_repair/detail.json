@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "报障工单详情页",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "myfiles": "/components/myfiles/myfiles",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

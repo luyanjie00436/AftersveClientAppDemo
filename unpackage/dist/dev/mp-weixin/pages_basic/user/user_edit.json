@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "查看个人消息",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

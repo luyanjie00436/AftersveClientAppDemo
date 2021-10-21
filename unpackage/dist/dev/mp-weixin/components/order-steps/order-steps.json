@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "luyj-steps": "/uni_modules/luyj-steps/components/luyj-steps/luyj-steps"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "is-login": "/components/is-login/is-login",
+    "bind-phone-box": "/components/bind-phone-box/bind-phone-box"
+  }
+}

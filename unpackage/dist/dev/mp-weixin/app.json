@@ -1,0 +1,100 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/login/password/password_forget",
+    "pages/login/register/register",
+    "pages/notice/home",
+    "pages/repair-order/repair/home",
+    "pages/repair-order/repair-order/home",
+    "pages/notice/noticedetail",
+    "pages/login/login-weixin/login-weixin",
+    "components/staffs-selects-box/staffs-select"
+  ],
+  "subPackages": [
+    {
+      "root": "pages_basic",
+      "pages": [
+        "page_guid",
+        "my/changepassword",
+        "orgation/orgation_switch",
+        "orgation/orgation_create",
+        "orgation/orgation_createOrJoin",
+        "product/home",
+        "orgation/organtion",
+        "user/userdetail",
+        "product/problem/home",
+        "system/home",
+        "product/device/home",
+        "product/producttype/home",
+        "product/productmodel/home",
+        "orgation/orgationdetail",
+        "product/problem/problemdetail",
+        "staff/staffdetail",
+        "staff/stafflist",
+        "product/device/detail",
+        "staff/staffapplylist",
+        "staff/staffinvition",
+        "orgation/branchlist",
+        "branchs-select",
+        "orgation/merchant_edit",
+        "staff/staff_edit",
+        "customer/customer-select",
+        "customer/customerlist",
+        "customer/customerdetail",
+        "customer/customer_edit",
+        "product/brand/brandlist",
+        "product/brand/branddetail",
+        "product/brand/brand_edit",
+        "merchant-select",
+        "product/productmodel/detail",
+        "product/productmodel/edit",
+        "product/device/edit",
+        "product/product/home",
+        "product/product/detail",
+        "product/product/edit",
+        "staff/staff-select",
+        "organ/edit",
+        "user/user_edit"
+      ]
+    },
+    {
+      "root": "pages_repair",
+      "pages": [
+        "repair",
+        "search",
+        "detail",
+        "repairsn",
+        "repaircate"
+      ]
+    },
+    {
+      "root": "pages_repair-order",
+      "pages": [
+        "customer/detail",
+        "server/detail",
+        "customer/rateorder",
+        "server/repairsubmit",
+        "server/processing",
+        "server/suspend",
+        "server/accept",
+        "customer/validation"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {},
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "notice": "/pages/notice/home",
+    "repair": "/pages/repair-order/repair/home",
+    "repair-order": "/pages/repair-order/repair-order/home",
+    "my": "/pages/basic/my/home"
+  },
+  "sitemapLocation": "sitemap.json"
+}

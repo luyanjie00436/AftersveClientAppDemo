@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['changBranchs',['$event']]]]]}}" class="box text-df data-v-b6c7f8d8" style="display:flex;flex-direction:row;" bindtap="__e"><view class="item  data-v-b6c7f8d8">{{current.Name?current.Name:'无'}}</view><view class="right data-v-b6c7f8d8"><text class="cuIcon cuIcon-right text-grey data-v-b6c7f8d8"></text></view></view>

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "组织信息",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "operate-permission": "/components/operate-permission/operate-permission",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "luyj-data-picker": "/uni_modules/luyj-data-picker/components/luyj-data-picker/luyj-data-picker",
+    "luyj-select-multiple": "/uni_modules/luyj-select-multiple/components/luyj-select-multiple/luyj-select-multiple",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

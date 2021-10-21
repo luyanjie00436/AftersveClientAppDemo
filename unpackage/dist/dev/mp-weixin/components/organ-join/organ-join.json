@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "luyj-search-bar": "/uni_modules/luyj-search-bar/components/luyj-search-bar/luyj-search-bar",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item"
+  }
+}

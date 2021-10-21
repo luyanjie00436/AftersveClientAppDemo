@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "luyj-tree": "/uni_modules/luyj-tree/components/luyj-tree/luyj-tree"
+  }
+}

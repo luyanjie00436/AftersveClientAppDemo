@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "服务验收",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "luyj-choose-img": "/uni_modules/luyj-choose-img/components/luyj-choose-img/luyj-choose-img",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

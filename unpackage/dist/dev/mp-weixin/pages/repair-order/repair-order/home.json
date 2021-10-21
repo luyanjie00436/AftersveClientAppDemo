@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "工单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "product-search": "/components/product-search/product-search",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "repair-item-customer": "/components/repair-item-customer/repair-item-customer",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "repair-item-service": "/components/repair-item-service/repair-item-service"
+  }
+}

@@ -1,0 +1,554 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易通服务",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/password/password_forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/notice/home",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/repair-order/repair/home",
+			"style": {
+				"navigationBarTitleText": "报障",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/repair-order/repair-order/home",
+			"style": {
+				"navigationBarTitleText": "工单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/notice/noticedetail",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login-weixin/login-weixin",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+	    ,{
+            "path" : "components/staffs-selects-box/staffs-select",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "员工选择",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+    ],
+	"subPackages": [{
+			"root": "pages_basic",
+			"pages": [{
+					"path": "page_guid",
+					"style": {
+						"navigationBarTitleText": "引导页",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "my/changepassword",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orgation/orgation_switch",
+					"style": {
+						"navigationBarTitleText": "我的组织",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orgation/orgation_create",
+					"style": {
+						"navigationBarTitleText": "组织",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orgation/orgation_createOrJoin",
+					"style": {
+						"navigationBarTitleText": "组织",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/home",
+					"style": {
+						"navigationBarTitleText": "产品目录",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orgation/organtion",
+					"style": {
+						"navigationBarTitleText": "组织机构",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "user/userdetail",
+					"style": {
+						"navigationBarTitleText": "个人信息",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/problem/home",
+					"style": {
+						"navigationBarTitleText": "常见问题",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				
+				{
+					"path": "system/home",
+					"style": {
+						"navigationBarTitleText": "组织管理",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/device/home",
+					"style": {
+						"navigationBarTitleText": "设备",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/producttype/home",
+					"style": {
+						"navigationBarTitleText": "分类",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/productmodel/home",
+					"style": {
+						"navigationBarTitleText": "型号",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "orgation/orgationdetail",
+					"style": {
+						"navigationBarTitleText": "组织",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "product/problem/problemdetail",
+					"style": {
+						"navigationBarTitleText": "问题",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "staff/staffdetail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "staff/stafflist",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/device/detail",
+					"style": {
+						"navigationBarTitleText": "设备详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "staff/staffapplylist",
+					"style": {
+						"navigationBarTitleText": "成员申请审核",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "staff/staffinvition",
+					"style": {
+						"navigationBarTitleText": "邀请新成员",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "orgation/branchlist",
+					"style": {
+						"navigationBarTitleText": "门店索引",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "branchs-select",
+					"style": {
+						"navigationBarTitleText": "门店选择",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "orgation/merchant_edit",
+					"style": {
+						"navigationBarTitleText": "组织信息",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "staff/staff_edit",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "customer/customer-select",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "customer/customerlist",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "customer/customerdetail",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "customer/customer_edit",
+					"style": {
+						"navigationBarTitleText": "客户编辑",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/brand/brandlist",
+					"style": {
+						"navigationBarTitleText": "品牌列表",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "product/brand/branddetail",
+					"style": {
+						"navigationBarTitleText": "品牌详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/brand/brand_edit",
+					"style": {
+						"navigationBarTitleText": "品牌编辑页",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "merchant-select",
+					"style": {
+						"navigationBarTitleText": "组织选择",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/productmodel/detail",
+					"style": {
+						"navigationBarTitleText": "型号详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/productmodel/edit",
+					"style": {
+						"navigationBarTitleText": "型号编辑",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/device/edit",
+					"style": {
+						"navigationBarTitleText": "设备编辑",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/product/home",
+					"style": {
+						"navigationBarTitleText": "产品列表",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/product/detail",
+					"style": {
+						"navigationBarTitleText": "产品详情",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "product/product/edit",
+					"style": {
+						"navigationBarTitleText": "产品-编辑",
+						"enablePullDownRefresh": false,
+						"navigationStyle":"custom"
+					}
+				}
+			    ,{
+                    "path" : "staff/staff-select",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "员工-选择",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                
+                }
+                ,{
+                    "path" : "organ/edit",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "部门-编辑",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                }
+                ,{
+                    "path" : "user/user_edit",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "查看个人消息",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pages_repair",
+			"pages": [{
+					"path": "repair",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "search",
+					"style": {
+						"navigationBarTitleText": "SN码报障搜索",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "报障工单详情页",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "repairsn",
+					"style": {
+						"navigationBarTitleText": "报障-SN报障",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "repaircate",
+					"style": {
+						"navigationBarTitleText": "报修-分类",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages_repair-order",
+			"pages": [{
+					"path": "customer/detail",
+					"style": {
+						"navigationBarTitleText": "报障工单",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "server/detail",
+					"style": {
+						"navigationBarTitleText": "受理工单",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "customer/rateorder",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}, {
+					"path": "server/repairsubmit",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "server/processing",
+					"style": {
+						"navigationBarTitleText": "确认工单",
+						"enablePullDownRefresh": false,
+						"navigationStyle": "custom"
+					}
+
+				}
+			    ,{
+                    "path" : "server/suspend",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "中止(/结束)工单",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                
+                }
+                ,{
+                    "path" : "server/accept",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "受理工单",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                }
+                ,{
+                    "path" : "customer/validation",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "服务验收",
+                    "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+                }
+                
+                }
+            ]
+		}
+	],
+	"preloadRule": {
+		// "pages/index/index": {
+		// 	"network": "all",
+		// 	"packages": ["__APP__"]
+		// }
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 1, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "创建或加入组织", //模式名称
+				"path": "pages_basic/orgation/orgation_createOrJoin", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}	,
+			{
+				"name": "系统提示", //模式名称
+				"path": "pages/notice/noticedetail", //启动页面，必选
+				"query": "msgType=2" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

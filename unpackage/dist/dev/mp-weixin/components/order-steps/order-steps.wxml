@@ -1,0 +1,1 @@
+<view class="bg-white padding"><luyj-steps vue-id="4334f520-1" options="{{status!='Cancel'?steps_row:steps_row_cancel}}" active="{{active}}" activeColor="{{activeColor}}" bind:__l="__l"></luyj-steps></view>

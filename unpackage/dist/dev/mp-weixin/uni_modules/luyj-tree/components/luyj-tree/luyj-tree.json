@@ -1,0 +1,11 @@
+{
+  "componentGenerics": {
+    "scoped-slots-default": true
+  },
+  "component": true,
+  "usingComponents": {
+    "luyj-tree-search": "/uni_modules/luyj-tree/components/luyj-tree-search/luyj-tree-search",
+    "luyj-tree-navigation": "/uni_modules/luyj-tree/components/luyj-tree-navigation/luyj-tree-navigation",
+    "luyj-tree-item": "/uni_modules/luyj-tree/components/luyj-tree-item/luyj-tree-item"
+  }
+}

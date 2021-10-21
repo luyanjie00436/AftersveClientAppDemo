@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "luyj-data-picker": "/uni_modules/luyj-data-picker/components/luyj-data-picker/luyj-data-picker",
+    "branch-select": "/components/branch-select/branch-select",
+    "luyj-choose-img": "/uni_modules/luyj-choose-img/components/luyj-choose-img/luyj-choose-img",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

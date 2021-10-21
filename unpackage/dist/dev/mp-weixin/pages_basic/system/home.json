@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "组织管理",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "luyj-grid-link": "/uni_modules/luyj-grid-link/components/luyj-grid-link/luyj-grid-link",
+    "organ-invte": "/components/organ-invte/organ-invte"
+  }
+}

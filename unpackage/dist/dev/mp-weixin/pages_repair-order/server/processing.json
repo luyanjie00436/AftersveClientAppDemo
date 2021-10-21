@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "确认工单",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-forms-item": "/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "merchant-select-box": "/components/merchant-select-box/merchant-select-box",
+    "staff-select": "/components/staff-select/staff-select",
+    "bottom-btns": "/components/bottom-btns/bottom-btns"
+  }
+}

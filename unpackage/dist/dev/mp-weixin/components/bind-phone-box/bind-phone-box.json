@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mobile-input": "/components/mobile-input/mobile-input"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "通知",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "noticedetail-invited": "/components/noticedetail-invited/noticedetail-invited",
+    "notice-order": "/components/notice-order/notice-order",
+    "noticedetail-system": "/components/noticedetail-system/noticedetail-system"
+  }
+}

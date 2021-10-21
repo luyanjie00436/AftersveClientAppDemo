@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "luyj-choose-img": "/uni_modules/luyj-choose-img/components/luyj-choose-img/luyj-choose-img",
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker"
+  },
+  "component": true
+}

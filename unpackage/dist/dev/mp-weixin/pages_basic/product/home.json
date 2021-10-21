@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "产品目录",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "luyj-grid-link": "/uni_modules/luyj-grid-link/components/luyj-grid-link/luyj-grid-link"
+  }
+}
